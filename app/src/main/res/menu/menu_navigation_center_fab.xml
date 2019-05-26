@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/i_fun"
+        android:checked="true"
+        android:icon="@mipmap/funs"
+        android:title="动态" />
+
+    <item
+        android:id="@+id/i_discover"
+        android:icon="@mipmap/discoverery"
+        android:title="发现" />
+    <!--must set the item title to empty-->
+    <item
+        android:id="@+id/i_empty"
+        android:title="" />
+    <item
+        android:id="@+id/i_message"
+        android:icon="@mipmap/message"
+        android:title="消息" />
+    <item
+        android:id="@+id/i_mine"
+        android:icon="@mipmap/mine"
+        android:title="我的" />
+</menu>
